@@ -8,7 +8,7 @@ export class AppService {
   showEnvVars() {
     return {
       NODE_ENV: process.env.NODE_ENV,
-      DB_URI: this.configService.get<string>("DB_URI"),
+      DB_URI: `${this.configService.get<string>("DB_URI")}`,
     };
   }
 }
