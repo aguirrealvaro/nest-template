@@ -1,5 +1,5 @@
 {
-  "name": "nest-init",
+  "name": "nest-template",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@nestjs/common": "^9.0.0",
+    "@nestjs/config": "^2.2.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
     "reflect-metadata": "^0.1.13",
