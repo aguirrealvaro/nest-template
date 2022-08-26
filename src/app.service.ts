@@ -9,7 +9,7 @@ export class AppService {
     return {
       NODE_ENV: process.env.NODE_ENV,
       DB_URI: `${this.configService.get<string>("DB_URI")}`,
-      branch: "preview with url",
+      branch: "preview with url 22",
     };
   }
 }
