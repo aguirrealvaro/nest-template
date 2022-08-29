@@ -2,7 +2,7 @@ name: Deploy nest-init
 
 on:
   push:
-    branches: ["preview"]
+    branches: ["!master"]
 
 jobs:
   build:
