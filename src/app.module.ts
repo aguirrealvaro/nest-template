@@ -5,6 +5,7 @@ import { AppService } from "./app.service";
 
 console.log(process.env.NODE_ENV);
 console.log(`.env.${process.env.NODE_ENV}`);
+console.log("from preview");
 
 @Module({
   imports: [
