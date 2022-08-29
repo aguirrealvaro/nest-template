@@ -4,12 +4,11 @@ on:
   push:
     branches: ["master"]
 
-env:
-  NODE_ENV: production    
-
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      NODE_ENV: production
 
     strategy:
       matrix:
